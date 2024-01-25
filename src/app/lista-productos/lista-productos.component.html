@@ -1,4 +1,7 @@
 <p>lista-productos works!</p>
 <div *ngFor="let product of productos">
-{{product.nombre}}
+  {{product.nombre}}
+  <div *ngIf ="product.descripcion.length>0 && product.descripcion">
+  {{product.descripcion}}
+  </div>
 </div>

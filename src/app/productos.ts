@@ -1,4 +1,5 @@
 
+import { NONE_TYPE } from "@angular/compiler"
 import { Producto } from "./productos-interface"
 export const producto: Producto[] = [
   {
@@ -15,6 +16,11 @@ export const producto: Producto[] = [
     nombre: 'Batidora',
     precio: 20,
     descripcion: "El aparato más útil de la cocina."
+  },
+  {
+    nombre: 'Pete',
+    precio: 20,
+    descripcion: ""
   }
 ]
 
